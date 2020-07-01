@@ -1,0 +1,168 @@
+/* 导航栏 */
+/* 大屏下拉菜单样式 */
+@media (min-width:992px) {
+	#m-nav{display: none !important;}
+}
+@media (max-width:991.99px) {
+	#m-nav ul li{border-top: 1px solid #e0e0e0;
+	font-size:15px;
+	background-color: #000;
+	padding: 0 20px;
+	color: #fff;
+	line-height: 40px;
+	}
+	#nav{
+		padding: 0 !important; 
+		height: 60px !important;
+		background-color: rgba(0, 0, 0, 0.8) !important;
+	}
+}
+#m-nav{
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	top: 60px;
+}
+#nav{
+	height: 120px;
+	padding-top:40px !important;
+	background-color: rgba(0, 0, 0, 0.8) !important;
+	font-size:14px;
+}
+	
+@media (min-width:992px) {
+	#nav-line{
+		width: 100%; 
+		border-top: 1px solid #c6c5c3;
+		position: absolute;
+		bottom: 30px;
+	}
+}
+
+.nav-style{
+	position: relative; 
+	bottom:30px;
+}
+/* 去除下拉菜单按钮边框 */
+.navbar-toggler{
+	border: 0;
+}
+/* 导航栏左外边距 */
+@media (min-width:1700px) {
+	#nav div:first-child{margin-left: 350px;}
+}
+
+
+/* 导航栏动画 */
+
+#nav ul {
+	float: left;
+}
+#nav ul li{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+}
+#nav ul li a{
+	display: inline-block;
+	padding: 0 18px;
+	height: 30px;
+	color: #fff;
+	vertical-align: middle;
+	position: relative;
+	transition: 0.3s;
+	font-size: 13px;
+	background: url(../../img-nav/line1.gif) no-repeat right 7px;
+}
+#nav ul li a span{
+	text-transform: capitalize;
+	position: absolute;
+	left: 0;
+	top: -40px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	opacity: 0;
+}
+#nav ul li a em{
+	font-weight: normal;
+	font-style: normal;
+}
+#nav .nav-link:hover{
+	line-height: 110px;
+	color: #FFEA00;
+}
+#nav .nav-link:hover em{
+	opacity: 0;
+}
+#nav .nav-link:hover span{
+	opacity: 1;
+}
+/* 二维码 */
+#nav ul #code a{
+	background: 0 ;
+	height: 20px ;
+}
+
+/* #nav .code{
+	float: left;
+	position: relative;
+}
+#nav .code a{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	text-decoration: none;
+}
+#nav .code a img{
+	display: inline-block;
+	vertical-align: middle;
+} */
+
+
+
+
+			/* 以上是导航栏 */
+			
+/* footer */
+#f-l,#f-r{
+	font-size: 13px;
+}
+#f-l p{
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+#f-l .my_p{
+	height: 60px;
+	margin-top: 30px;
+	color: #909090;
+}
+
+#f-r p{
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+}
+.my_mp{
+	margin-top: 6.25rem;
+	padding-bottom: 6.25rem;
+}
+/* #f-r div:last-child{padding-top: 10px;}
+#f-r div:first-child{padding-left: 0px;} */
+@media (max-width:768px) {
+	#f-l p{text-align: center;}
+}
+
+#f-l{
+	border-right: 1px solid #666;
+}
+
+@media (max-width:767.9px) {
+	#f-l{border: 0;}
+}
+@media (min-width:768px) and (max-width:992px) {
+	#f-r div:first-child{padding-left: 30px;}
+	.my_p1{padding-left: 6rem !important;}
+}

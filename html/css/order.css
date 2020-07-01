@@ -1,0 +1,86 @@
+.case-title div ul .order_a{
+	display: inline-block;
+	background: url(../../img-case/snv_li2.png) no-repeat;
+	width: 185px !important;
+	background-position:right 0;
+	line-height: 33px;
+} 
+
+
+.case-title{
+	height: 134px;
+	background: url(../../img-about/classtype_bg.jpg) repeat;
+	padding: 25px 0;
+}
+
+.case-title li{
+	margin: 0 7px;
+	padding-top: 20px;
+}
+
+.case-title li a{
+	display: inline-block;
+	background: url(../../img-case/snv_li.png) no-repeat;
+	width: 110px;
+	height: 33px;
+	line-height: 33px;
+	background-position:right 0;
+	text-align: center;
+	color:#666 ;
+	text-decoration: none;
+}
+.case-title h3{
+	margin-bottom: 0;
+}
+.case-title li a:hover{
+	background-position: left 0;
+}
+
+/* 以上是case_title */
+
+
+
+#order div .a1{
+	background: url(../../img-order/order01.jpg) no-repeat;
+	height: 219px;
+	display: block;
+	/* width: 100%; */
+	background-position: 50% 50%;
+}
+#order div .a2{
+	background: url(../../img-order/order02.jpg) no-repeat;
+	height: 219px;
+	display: block;
+	/* width: 100%; */
+	background-position: 50% 50%;
+}
+
+
+#order div .a1:hover{
+	background: url(../../img-order/order01_h.jpg) no-repeat;
+	height: 219px;
+	display: block;
+	width: 100%;
+	background-position: 50% 50%;
+}
+#order div .a2:hover{
+	background: url(../../img-order/order02_h.jpg) no-repeat;
+	height: 219px;
+	display: block;
+	width: 100%;
+	background-position: 50% 50%;
+}
+ 
+#order{
+	max-width:1200px ;
+	width: 100%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+#order div{
+	margin-bottom: 20px;
+}
+
+@media (max-width:769px) {
+	#order div a{background-size: 100% !important;padding-top: 18%;height: auto !important;}
+}

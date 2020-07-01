@@ -1,0 +1,13 @@
+.case-title{
+	height: 101px;
+	background: url(../../img-about/classtype_bg.jpg) repeat;
+	padding: 25px 0;
+}
+#contact{padding: 30px 0;}
+
+#contact div p{
+	font-size: 14px ;
+	color:#333;
+	white-space: normal;
+}
+.contact_p{background-color: #ffe500;}

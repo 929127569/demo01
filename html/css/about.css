@@ -1,0 +1,20 @@
+*{margin:0;padding: 0;}
+.classtype{
+	/* height: 51px;
+	padding: 25px 0; */
+	background: url(../../img-about/classtype_bg.jpg) repeat;
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.classtype div:first-child{
+	height: 101px;
+	padding: 25px 0;
+	line-height: 51px;
+	font-size: 24px;
+}
+
+.main{max-width: 1200px;width: 100%;margin: 0 auto;}
+.main p{font-size: 14px;color: #666666;line-height: 24px;}
+
+.main img{max-width:100% ;height: auto;}
